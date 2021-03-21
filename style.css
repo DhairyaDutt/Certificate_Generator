@@ -1,0 +1,41 @@
+#nb1{
+    background-color: rgba(0, 0, 0, 0.863);
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+#nb1 .navbar-brand{
+	color: red;
+    font-size: 2rem;
+}
+
+#nb1 .nav-link:hover {
+	color: #6505ff;  
+    font-weight: bold;
+} 
+
+#Home{
+background-image: url(" https://images.unsplash.com/photo-1442406964439-e46ab8eff7c4?dpr=2&fit=crop&fm=jpg&h=825&q=50&w=1450");
+background-repeat: no-repeat;
+color: white;
+height: 100vh;
+display:flex;
+flex-direction: column;
+justify-content: center; 
+align-items: center;
+}
+
+#Home #generate{
+    font-size: 25px;
+    background-color: green;
+    border: 0.25rem solid black;
+    border-radius: 60px;
+
+}
+
+/* @media (max-width: 1200px) {
+	#Home{
+	font-weight: 100;
+	font-size: 3rem; 
+}
+} */

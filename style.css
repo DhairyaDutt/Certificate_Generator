@@ -1,3 +1,13 @@
+body{
+    font-family: "Nunito", "sans-serif";
+}
+
+
+
+
+
+
+
 
 .main_sample{
     font-style: italic;
@@ -83,20 +93,23 @@
     }
 }
 
-#nb1{
-    background-color: rgba(0, 0, 0, 0.863);
-    font-size: 1.2rem;
-    font-weight: bold;
-}
 
 #nb1 .navbar-brand{
-	color: red;
-    font-size: 2rem;
+	color: #ea1c2c;
+    
+}
+
+#nb1 .nav-link{
+    color: white;
+}
+
+#nb1{
+    font-size: 1.5rem;
+    font-weight: 500;
 }
 
 #nb1 .nav-link:hover {
-	color: #6505ff;  
-    font-weight: bold;
+	color:  #ea1c2c;
 } 
 
 #Home{
@@ -116,6 +129,11 @@ align-items: center;
     border: 0.25rem solid black;
     border-radius: 60px;
 
+}
+
+.navbar.scroll{
+    background-color: black;
+    transition: background 500ms;
 }
 
 /* @media (max-width: 1200px) {
